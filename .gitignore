@@ -1,0 +1,76 @@
+# ==============================================================================
+# Git Ignore - Security, Privacy, and Staging Safeguards
+# Repository: hayashijoseph
+# ==============================================================================
+
+# --- Secrets & Environment Configurations ---
+.env
+.env.*
+!.env.example
+*.env
+secrets.json
+credentials.json
+client_secret*.json
+token.json
+appsettings.Development.json
+local.settings.json
+
+# --- Private Keys & Certificates ---
+*.pem
+*.key
+*.pfx
+*.p12
+*.pkcs12
+*.kdbx
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+
+# --- Cloud Credentials & CLI Tooling ---
+.aws/
+.azure/
+.gcloud/
+.kube/
+.netrc
+.npmrc
+.pypirc
+
+# --- OS Artifacts & iCloud Drive Sync Files ---
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*.icloud
+.~*
+
+# --- Installer & Driver Staging Artifacts ---
+# Prevents committing multi-hundred megabyte binaries downloaded by Install-AppleTetheringDriver.ps1
+iTunes64Setup.exe
+AppleMobileDeviceSupport*.msi
+AppleDriversSetup/
+Extracted/
+*.exe
+*.msi
+*.iso
+*.sys
+*.dll
+
+# --- IDE & Editor Settings ---
+.idea/
+*.suo
+*.user
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- Logs & Temp Files ---
+*.log
+*.tmp
+*.bak
