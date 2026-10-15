@@ -1,6 +1,6 @@
 # Install-FirefoxUK
 
-A standalone PowerShell automation script to silently download and install official Mozilla Firefox Extended Support Release (ESR) 64-bit with British English (`en-GB`) localization and enterprise customization flags.
+A standalone PowerShell automation script to silently download and install official Mozilla Firefox Extended Support Release (ESR) 64-bit with British English (`en-GB`) localisation and enterprise customisation flags.
 
 ---
 
@@ -20,7 +20,7 @@ Deploying Firefox in an enterprise or clean personal environment often requires:
 
 * **Direct Vendor CDN:** Downloads directly from Mozilla's official release endpoints (`download.mozilla.org`).
 * **Resilient Download Pipeline:** Automatically attempts BITS transfer first, followed by `Invoke-WebRequest` and .NET `WebClient` fallbacks.
-* **Enterprise Customization:**
+* **Enterprise Customisation:**
   - `DESKTOP_SHORTCUT=false` — Prevents desktop clutter.
   - `INSTALL_MAINTENANCE_SERVICE=false` — Excludes the background maintenance updater service.
   - `/qn /norestart` — Fully silent unattended deployment with no surprise reboots.
