@@ -15,7 +15,7 @@ A curated collection of modular PowerShell automation scripts, system administra
 | Category | Tool | Description | Documentation |
 | :--- | :--- | :--- | :--- |
 | **Drivers** | **[Apple Tethering](drivers/AppleTethering)** | Extracts and stages official Apple iPhone USB tethering and mobile device drivers without installing iTunes. | [View Guide](drivers/AppleTethering/README.md) |
-| **Software** | **[Firefox Enterprise (en-GB)](software/FirefoxUKEnterprise)** | Silently downloads and installs 64-bit Mozilla Firefox ESR with UK English localization, disabled desktop icons, and disabled maintenance service. | [View Guide](software/FirefoxUKEnterprise/README.md) |
+| **Software** | **[Firefox Enterprise (en-GB)](software/FirefoxUKEnterprise)** | Silently downloads and installs 64-bit Mozilla Firefox ESR with UK English localisation, disabled desktop icons, and disabled maintenance service. | [View Guide](software/FirefoxUKEnterprise/README.md) |
 
 ---
 
